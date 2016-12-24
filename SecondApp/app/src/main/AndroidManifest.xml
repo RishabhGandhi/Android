@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="silentmodetoggle.android.dummies.com.secondapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/splash_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:label="Counter">
+            <intent-filter>
+                <action android:name="android.intent.action.First" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Menu"
+            android:label="Menu">
+            <intent-filter>
+                <action android:name="android.intent.action.Menu" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Sqlview"
+            android:label="Menu">
+            <intent-filter>
+                <action android:name="android.intent.action.SqlView" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TextPlay" android:label="Text"></activity>
+        <activity android:name=".Email" android:label="Email"></activity>
+        <activity android:name=".OpenedClass" android:label="Email"></activity>
+        <activity android:name=".Data" android:label="Email"></activity>
+        <activity android:name=".Gfx" android:label="Email"></activity>
+        <activity android:name=".Gfxsurface" android:label="Email"></activity>
+        <activity android:name=".Sqlite" android:label="kjhgu"></activity>
+        <activity android:name=".Browser" android:label="Browser"></activity>
+
+        <activity android:name=".Camera" android:label="Camera"
+            android:screenOrientation="portrait"></activity>
+    </application>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"></uses-permission>
+    <uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+</manifest>

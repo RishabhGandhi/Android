@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="25dp">
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Hello"
+        android:password="true"
+        android:id="@+id/et" />
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    android:layout_below="@+id/et"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="30dp"
+    android:id="@+id/linearLayout">
+
+
+    <Button
+    android:layout_weight="20"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="Try it"
+    android:id="@+id/bt" />
+
+    <ToggleButton
+    android:layout_weight="80"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="New ToggleButton"
+        android:checked="true"
+    android:id="@+id/tb" />
+
+</LinearLayout>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Invalid"
+        android:gravity="center"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="31dp"
+        android:id="@+id/tt" />
+</RelativeLayout>
